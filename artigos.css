@@ -87,6 +87,9 @@ body {
   }
   
   .carousel-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     display: flex;
     align-items: center;
     position: relative;
@@ -95,7 +98,7 @@ body {
   }
   
   .carousel {
-    margin-left: 8%;
+    
     display: flex;
     gap: 20px;
     overflow-x: auto;
@@ -156,7 +159,7 @@ body {
   }
   
   .carousel-control.prev {
-    margin-left: 2%;
+    left: 40px;
   }
   
   .carousel-control.next {
@@ -166,7 +169,7 @@ body {
   .footer {
     background-color: #b8a495; 
     padding: 20px;
-    margin-top: 5%;
+    
   }
   
   .footer-content {
